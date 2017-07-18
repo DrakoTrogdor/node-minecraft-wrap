@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --reporter spec",
     "downloadMinecraft": "./examples/exampleDownload.js",
-    "runMinecraft":"./examples/exampleWrapClient.js"
+    "runMinecraft": "./examples/exampleWrapClient.js"
   },
   "repository": {
     "type": "git",
@@ -38,11 +38,14 @@
     "rimraf": "~2.1.1",
     "yggdrasil": "rom1504/node-yggdrasil#request_user_option"
   },
+  "optionalDependencies": {
+    "robotjs": "^0.4.7"
+  },
   "devDependencies": {
     "mocha": "~2.2.1"
   },
   "bin": {
     "downloadMinecraft": "./examples/exampleDownload.js",
-    "runMinecraft":"./examples/exampleWrapClient.js"
+    "runMinecraft": "./examples/exampleWrapClient.js"
   }
 }
