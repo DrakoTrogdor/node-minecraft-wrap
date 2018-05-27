@@ -1,5 +1,13 @@
 # History
 
+## 1.1.8
+
+* fix yggdrasil dependency
+
+## 1.1.7
+
+* bump dependencies
+
 ## 1.1.6
 
 * add params for mc <=1.6
